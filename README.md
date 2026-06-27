@@ -132,7 +132,7 @@ int payload_len = ntohs(ip->iph_len) - ip_header_len - tcp_header_len;
 ## 파일 구조
 
 ```
-.
+pcap-sniffer
 ├── sniffer.c       # 메인 소스 코드
 └── README.md       # 프로젝트 설명
 ```
